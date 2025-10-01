@@ -1,0 +1,26 @@
+package array_Assignment1;
+
+import java.util.Scanner;
+
+public class Q1 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.print("Enter Size of an array: ");
+		int size=sc.nextInt();
+		int[] num=new int[size];
+		for(int i=0;i<num.length;i++) {
+			System.out.print("Enter "+(i+1)+" element: ");
+			num[i]=sc.nextInt();
+			
+		}
+		for(int j=0;j<num.length;j++) {
+			if(j%2==0)
+				System.out.println("Element at "+(j+j)+" index is: "+num[j]);
+		}
+		System.out.println("\n");
+			sc.close();
+	}
+
+}
