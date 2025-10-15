@@ -3,6 +3,7 @@ package pattern_Programming_Level1;
 /*
 n=5
 
+
 1 
 2 2 
 3 3 3 
