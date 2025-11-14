@@ -2,7 +2,7 @@ package exceptionHandling;
 
 public class NumberFormatException_example {
 	public static void main(String[] args) {
-		String s1="38a6";
+		String s1="386as";
 		System.out.println(s1);
 		System.out.println(s1+100);
 		int x=Integer.parseInt(s1);
